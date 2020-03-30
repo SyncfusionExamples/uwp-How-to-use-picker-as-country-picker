@@ -154,7 +154,7 @@
       <Version>17.4.0.51</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991537" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.6" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Picker_GettingStarted\Picker_GettingStarted.csproj">
