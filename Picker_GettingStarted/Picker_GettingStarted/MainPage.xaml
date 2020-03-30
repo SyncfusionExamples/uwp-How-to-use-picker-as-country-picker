@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Picker_GettingStarted"
+             xmlns:picker="clr-namespace:Syncfusion.SfPicker.XForms;assembly=Syncfusion.SfPicker.XForms"
+             x:Class="Picker_GettingStarted.MainPage">
+
+    <Grid x:Name="main">
+        <Button x:Name="button" 
+                Text="Open Picker" 
+                Clicked="Button_Clicked" 
+                HeightRequest="70" 
+                WidthRequest="150" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <picker:SfPicker x:Name="picker"                   
+                         ItemHeight="45"
+                         HeaderText="Select Country"                   
+                         PickerMode="Dialog"                                      
+                         PickerHeight="350" 
+                         PickerWidth="350"  
+                         ShowFooter="True"/>
+    </Grid>
+</ContentPage>
